@@ -129,6 +129,10 @@
 
 /* ---------- scss mixin --------- */
 
+@mixin no-text-decoration {
+  text-decoration: none;
+}
+
 @mixin mt-mb($value) {
   margin-top: $value;
   margin-bottom: $value;
