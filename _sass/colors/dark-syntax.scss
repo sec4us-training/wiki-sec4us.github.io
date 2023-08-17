@@ -19,6 +19,12 @@
     color: #87939d;
   }
 
+  pre { color: #bfbfbf; } /* override Bootstrap */
+  kbd { background-color: black; }
+
+
+  b, strong { color: #ec3136; } /* Strong tag */
+
   /* syntax highlight colors from https://raw.githubusercontent.com/jwarby/pygments-css/master/monokai.css */
 
   .highlight pre { background-color: var(--highlight-bg-color); }
