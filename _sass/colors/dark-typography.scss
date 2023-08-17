@@ -3,27 +3,38 @@
  */
 
 @mixin dark-scheme {
-  /* Framework color */
+  /* framework */
   --main-bg: rgb(27, 27, 30);
+  --main-wrapper-bg: rgb(27, 27, 30);
+  --body-bg: var(--main-wrapper-bg);
+  --topbar-wrapper-bg: rgb(39, 40, 43);
+  --search-wrapper-bg: rgb(34, 34, 39);
+  --search-icon-color: rgb(100, 102, 105);
+  --input-focus-border-color: rgb(112, 114, 115);
   --mask-bg: rgb(68, 69, 70);
-  --main-border-color: rgb(44, 45, 45);
+  --footer-bg-color: var(--main-wrapper-bg);
 
-  /* Common color */
+  /* common color */
   --text-color: rgb(175, 176, 177);
-  --text-muted-color: rgb(125, 136, 146);
+  --text-muted-color: rgb(107, 116, 124);
   --heading-color: #cccccc;
   --label-color: #a4a4c2;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
   --link-color: rgb(138, 180, 248);
   --link-underline-color: rgb(82, 108, 150);
+  --main-border-color: rgb(44, 45, 45);
   --button-bg: rgb(39, 40, 43);
+  --blockquote-border-color: rgb(66, 66, 66);
+  --blockquote-text-color: rgb(117, 117, 117);
   --btn-border-color: rgb(63, 65, 68);
-  --btn-backtotop-color: var(--text-color);
-  --btn-backtotop-border-color: var(--btn-border-color);
-  --btn-box-shadow: var(--main-bg);
-  --card-header-bg: rgb(48, 48, 48);
-  --checkbox-color: rgb(118, 120, 121);
+  --btn-backtotop-bg: var(--btn-active-bg);
+  --btn-backtotop-color: var(--btn-text-color);
+  --btn-backtotop-border-color: var(--btn-active-border-color);
+  --btn-box-shadow: var(--main-wrapper-bg);
+  --card-header-bg: rgb(51, 50, 50);
+  --label-color: rgb(108, 117, 125);
+  --checkbox-color: rgb(118 120 121);
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
   --shimmer-bg: linear-gradient(
@@ -34,6 +45,7 @@
   );
 
   /* Sidebar */
+  --nav-cursor-color: rgb(183, 182, 182);
   --site-title-color: #717070;
   --site-subtitle-color: #6d6c6b;
   --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
@@ -55,8 +67,13 @@
   --post-list-text-color: rgb(175, 176, 177);
   --btn-patinator-text-color: var(--text-color);
   --btn-paginator-hover-color: rgb(64, 65, 66);
-  --btn-paginator-border-color: var(--btn-border-color);
+  --btn-active-bg: rgba(28, 52, 94, 1);
+  --btn-active-border-color: rgb(66, 94, 138);
   --btn-text-color: var(--text-color);
+  --btn-paginator-border-color: var(--btn-border-color);
+  --btn-paginator-shadow: var(--main-wrapper-bg);
+  --pin-bg: rgb(34 35 37);
+  --pin-color: inherit;
 
   /* Posts */
   --toc-highlight: rgb(116, 178, 243);
@@ -67,10 +84,10 @@
   --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
-  --card-bg: #1e1e1e;
-  --card-hovor-bg: #464d51;
-  --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
-    rgb(137, 135, 135, 0.24) 0 0 0 1px;
+  --relate-post-date: var(--text-muted-color);
+  --card-bg: rgb(39, 40, 43);
+  --card-border-color: rgb(53, 53, 60);
+  --card-box-shadow: var(--main-wrapper-bg);
   --kbd-wrap-color: #6a6a6a;
   --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
@@ -100,12 +117,29 @@
   --timeline-color: rgb(63, 65, 68);
   --timeline-year-dot-color: var(--timeline-color);
 
+  /* Footer */
+  --footer-link: rgb(171, 171, 171);
+
+  .post-content img {
+    filter: brightness(90%);
+  }
+  
   .light {
     display: none;
   }
 
   hr {
     border-color: var(--main-border-color);
+  }
+
+  /* posts' toc, override BS */
+  nav[data-toggle=toc] .nav-link.active,
+  nav[data-toggle=toc] .nav-link.active:focus,
+  nav[data-toggle=toc] .nav-link.active:hover,
+  nav[data-toggle=toc] .nav > li > a:focus,
+  nav[data-toggle=toc] .nav > li > a:hover {
+    color: var(--toc-highlight) !important;
+    border-left-color: var(--toc-highlight) !important;
   }
 
   /* categories */
@@ -118,13 +152,11 @@
     .card-header {
       background-color: var(--card-header-bg);
     }
-
     .list-group-item {
       border-left: none;
       border-right: none;
       padding-left: 2rem;
       border-color: var(--categories-border);
-
       &:last-child {
         border-bottom-color: var(--card-bg);
       }
