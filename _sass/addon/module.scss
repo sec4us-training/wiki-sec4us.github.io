@@ -139,6 +139,13 @@
   user-select: none;
 }
 
+@mixin icon-round($diameter) {
+  border: 1px solid;
+  border-radius: 50%;
+  width: $diameter;
+  height: $diameter;
+}
+
 @mixin mt-mb($value) {
   margin-top: $value;
   margin-bottom: $value;
@@ -161,6 +168,10 @@
 
 @mixin input-placeholder {
   opacity: 0.6;
+}
+
+@mixin semi-bold {
+  font-weight: 600;
 }
 
 @mixin label($font-size: 1rem, $font-weight: 600, $color: var(--label-color)) {
