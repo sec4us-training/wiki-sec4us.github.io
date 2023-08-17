@@ -1,5 +1,5 @@
 ---
-title: About
+title: Sobre a Sec4us
 icon: fas fa-info
 order: 1
 ---
