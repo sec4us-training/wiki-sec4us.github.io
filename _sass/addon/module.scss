@@ -133,6 +133,12 @@
   text-decoration: none;
 }
 
+@mixin sidebar-links($color: rgba(255, 255, 255, 0.5)) {
+  color: $color;
+  transition: color 0.35s ease-in-out;
+  user-select: none;
+}
+
 @mixin mt-mb($value) {
   margin-top: $value;
   margin-bottom: $value;
