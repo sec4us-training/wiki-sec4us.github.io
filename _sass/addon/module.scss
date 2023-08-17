@@ -114,7 +114,7 @@
   transform: translateX(-50%);
 }
 
-ype, $fa-content, $fa-style: 'solid') {
+@mixin prompt($type, $fa-content, $fa-style: 'solid') {
   &.prompt-#{$type} {
     background-color: var(--prompt-#{$type}-bg);
 
