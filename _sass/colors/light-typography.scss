@@ -37,9 +37,12 @@
   );
 
   /* Sidebar */
+  --sidebar-bg: radial-gradient(
+  circle,
+  rgba(65, 65, 65, 1) 0%,
+  rgba(35, 37, 46, 1) 100%);
   --site-title-color: rgb(113, 113, 113);
   --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
   --sidebar-muted-color: #545454;
   --sidebar-active-color: #1d1d1d;
   --sidebar-hover-bg: rgb(223, 233, 241, 0.64);

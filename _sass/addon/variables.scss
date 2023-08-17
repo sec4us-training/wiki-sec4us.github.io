@@ -5,6 +5,8 @@
 /* sidebar */
 
 $sidebar-width: 260px !default; /* the basic width */
+$sidebar-width-small: 210px;
+$sidebar-width-medium: 260px;
 $sidebar-width-large: 300px !default; /* screen width: >= 1650px */
 
 /* other framework sizes */
@@ -25,3 +27,11 @@ $code-font-size: 0.85rem !default;
 
 $font-family-base: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 $font-family-heading: Lato, 'Microsoft Yahei', sans-serif;
+
+
+$tab-height: 3.2rem;
+$tab-cursor-height: 1.6rem;
+
+$panel-max-width: 300px;
+
+$post-extend-min-height: 35rem;
