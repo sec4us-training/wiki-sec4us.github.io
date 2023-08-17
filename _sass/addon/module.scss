@@ -113,3 +113,15 @@
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
+ype, $fa-content, $fa-style: 'solid') {
+  &.prompt-#{$type} {
+    background-color: var(--prompt-#{$type}-bg);
+
+    &::before {
+      content: $fa-content;
+      color: var(--prompt-#{$type}-icon-color);
+      font: var(--fa-font-#{$fa-style});
+    }
+  }
+}
