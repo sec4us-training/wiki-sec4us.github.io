@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Primeiro acesso a VPN Sec4US - Laboratório de Pentest
-date: 2022-05-06 12:13:57.000000000 -03:00
+title: Primeiro acesso ao Portal Sec4US
+date: 2026-05-01 12:00:00.000000000 -03:00
 type: post
 parent_id: '0'
 published: true
@@ -11,10 +11,10 @@ categories:
 - Procedimentos
 tags: []
 author: Sec4US
-permalink: "/primeiro-acesso-a-vpn-sec4us-laboratorio-de-pentest/"
+permalink: "/primeiro-acesso-ao-portal-sec4us/"
 ---
 
-Este procedimento visa demonstrar o passo a passo para o seu primeiro acesso a VPN do laboratório de Pentest da Sec4US.
+Este procedimento visa demonstrar o passo a passo para o seu primeiro acesso ao portal Sec4US.
 
 ### Cadastro Sec4US
 
@@ -56,42 +56,6 @@ Após a troca com sucesso da senha você será direcionado a página de login, b
 Após a confirmação você será direcionado ao portal da Sec4US ([https://portal.sec4us.com.br](https://portal.sec4us.com.br)), conforme imagem abaixo), isso indica que sua senha foi trocada com sucesso.
 
 ![sso]({{site.baseurl}}/assets/2022/05/sso_006.png)
-
-### Acesso ao portal de VPN
-
-Após a troca da senha e acessar o portal da Sec4US, clique no link Portal de VPN no menu esquerdo do portal.
-
-![sso]({{site.baseurl}}/assets/2022/05/sso_007.jpg)
-
-Neste momento você entrará logado em nosso portal de VPN/Desafios.
-
-### Conectando a VPN
-
-Após a primeira conexão no portal de VPN você receberá por e-mail um arquivo OVPN, este arquivo deve ser utilizado toda vez que for se conectar a VPN.
-
-Realize o download do arquivo `connection.ovpn` e conecte com o seu cliente de OpenVPN padrão. Para a conexão na VPN utilize o seu e-mail (como usuário) e a senha cadastrada no portal de Single Sign On ([https://auth.sec4us.com.br](https://auth.sec4us.com.br)).
-
-> **Atenção:** Utilize o seu `e-mail` como usuário para a conexão.
-{: .prompt-warning }
-
-#### Conectando em ambiente Linux
-
-Para ambiente Linux pode ser utilizado conforme os comandos abaixo:
-
-```bash 
-sudo apt-get update  
-sudo apt-get install openvpn  
-sudo openvpn connection.ovpn  
-```
-
-#### Conectando em outros sistemas operacionais (Windows, MacOS e etc)
-
-Para outros sistemas operacionais utilize o cliente de VPN disponível para download em ([https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/)).
-
-Segue abaixo o link direto das releases no momento da escrita deste procedimento:
-
-*   Windows: [https://openvpn.net/downloads/openvpn-connect-v3-windows.msi](https://openvpn.net/downloads/openvpn-connect-v3-windows.msi)
-*   MacOS: [https://openvpn.net/downloads/openvpn-connect-v3-macos.dmg](https://openvpn.net/downloads/openvpn-connect-v3-macos.dmg)
 
 
 ## Suporte Sec4US
