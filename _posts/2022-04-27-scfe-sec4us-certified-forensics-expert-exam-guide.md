@@ -13,6 +13,7 @@ tags: []
 author: Sec4US
 permalink: "/scfe-sec4us-certified-forensics-expert-exam-guide/"
 ---
+
 A SCFE é uma certificação 100% prática focada em perícia forense computacional. Ao passar na certificação, o profissional comprova conhecimentos avançados em perícia forense computacional em Sistemas Operacionais Microsoft Windows e Linux.
 
 ### Para a obtenção da SCFE, você será testado referente aos seguintes assuntos:
