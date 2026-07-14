@@ -99,7 +99,7 @@ O candidato deverá garantir que todas essas ferramentas estejam **desabilitadas
 A utilização, tentativa de utilização ou o simples fornecimento de informações do exame a qualquer ferramenta de Inteligência Artificial constitui violação das regras da certificação, independentemente do impacto no resultado da prova.
 
 > **Atenção:** A identificação da utilização de qualquer ferramenta de Inteligência Artificial durante o exame implicará na **reprovação sumária e imediata do candidato**, sem direito à continuidade da prova, reembolso da taxa de certificação ou emissão de nova tentativa, além da adoção das medidas administrativas previstas no regulamento da certificação.
-> {: .prompt-danger }
+{: .prompt-warning }
 
 #### Requisito de documentação
 
@@ -155,11 +155,12 @@ Antes de iniciar a resolução do exame:
 4. Apresente à câmera um documento oficial de identificação com foto, como **RG, CNH, Passaporte ou Registro de Conselho/Classe**.
 
 > **Não são aceitos** crachás corporativos, carteiras de estudante ou qualquer outro documento não oficial.
+{: .prompt-tip }
 
 **Nota:** O documento de identificação apresentado e toda a gravação do exame serão utilizados exclusivamente para validação da identidade do candidato e para fins de auditoria interna do processo de certificação. Esses dados serão armazenados apenas pelo período necessário para a avaliação do exame e posteriormente eliminados de acordo com nossa política de retenção de dados.
 
 > **Atenção:** É **obrigatório** manter o sistema de **Proctoring aberto, autenticado, conectado e transmitindo continuamente a câmera e o compartilhamento de todas as telas utilizadas durante o exame**. Caso o candidato utilize dois ou mais monitores, **todos deverão permanecer compartilhados durante toda a prova**. A verificação de que o sistema permanece em funcionamento e transmitindo corretamente é **de inteira responsabilidade do candidato**. O fechamento do sistema de Proctoring, a interrupção da transmissão da câmera ou do compartilhamento de qualquer monitor, a perda de conexão ou qualquer falha que impeça o monitoramento contínuo poderá resultar na interrupção ou invalidação do exame, conforme as regras da certificação.
-> {: .prompt-warning }
+{: .prompt-warning }
 
 ### Sessão 3: Instruções de envio
 
