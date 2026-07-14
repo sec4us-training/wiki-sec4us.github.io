@@ -81,6 +81,26 @@ O equipamento forense, bem como os softwares a serem utilizados pelo candidato s
 
 Para este exame serão aceitas somente ferramentas de uso público gratuitas e/ou open-source. As ferramentas licencias e pagas são vetadas neste exame, mesmo que você e/ou sua empresa tenha a ferramenta devidamente licenciada.
 
+#### Restrição de Utilização de Inteligência Artificial (IA)
+
+Durante toda a realização do exame, é **terminantemente proibida** a utilização de qualquer ferramenta baseada em Inteligência Artificial (IA), independentemente da forma de acesso ou integração.
+
+Essa restrição inclui, mas não se limita a:
+
+* Assistentes de IA acessados por navegadores (ChatGPT, Claude, Gemini, Copilot, Perplexity, entre outros);
+* Recursos de IA integrados a IDEs ou editores de código (Visual Studio Code, JetBrains, Cursor, Windsurf, etc.);
+* Ferramentas de linha de comando (CLI) com recursos de IA;
+* Extensões de navegadores;
+* Aplicativos desktop ou mobile;
+* Agentes autônomos, automações ou qualquer outro mecanismo que utilize modelos de IA para auxiliar na resolução do exame.
+
+O candidato deverá garantir que todas essas ferramentas estejam **desabilitadas e não sejam utilizadas** durante todo o período da prova.
+
+A utilização, tentativa de utilização ou o simples fornecimento de informações do exame a qualquer ferramenta de Inteligência Artificial constitui violação das regras da certificação, independentemente do impacto no resultado da prova.
+
+> **Atenção:** A identificação da utilização de qualquer ferramenta de Inteligência Artificial durante o exame implicará na **reprovação sumária e imediata do candidato**, sem direito à continuidade da prova, reembolso da taxa de certificação ou emissão de nova tentativa, além da adoção das medidas administrativas previstas no regulamento da certificação.
+> {: .prompt-danger }
+
 #### Requisito de documentação
 
 Você deverá responder os requisitos apresentando passo a passo da análise das evidências encontradas, incluindo comandos, problemas nos comandos, resultados de tela e captura de tela. O laudo pericial deverá estar em formato PDF sem senha. Sua documentação deve ser suficiente para que outra pessoa possa reproduzir o passo a passo obtendo o mesmo resultado. A falha na documentação ou o não fornecimento de todas as informações necessárias para a reprodução do passo a passo, bem como o fornecimento de respostas incorretas, poderá implicar na não contabilização dos pontos propostos para o desafio.
@@ -120,6 +140,26 @@ No momento da assinatura do MSA você será solicitado para anexar um documento 
 Após a assinatura do MSA nosso time interno realizará a validação do MSA e documento de identificação anexado. Este processo de validação pode demorar até 7 dias úteis, desta forma se programe para realizá-lo antes da data em que deseja realizar o seu exame.
 
 Não existe uma limitação/exigência de tempo mínimo e máximo para a assinatura do MSA, sendo que o mesmo pode ser realizado a qualquer momento dentro do período de validade do voucher do exame. Desta forma recomendamos assiná-lo assim que realizar a aquisição do voucher, pois desta forma você terá liberado para iniciar o seu exame a qualquer momento desejado.
+
+#### Monitoramento e gravação
+
+Esta seção descreve os procedimentos de monitoramento e controle de qualidade aplicados durante o exame. Leia atentamente todas as instruções e certifique-se de que compreendeu cada uma delas antes de iniciar a prova.
+
+Todos os exames são monitorados e gravados. Antes de iniciar o exame, você deverá acessar o sistema de **Proctoring**, que será responsável pelo monitoramento da sua sessão. Durante todo o exame, o sistema deverá ter acesso à sua câmera e a todas as telas (monitores) utilizadas para a realização da prova.
+
+Antes de iniciar a resolução do exame:
+
+1. Acesse a URL do ambiente de **Proctoring** disponibilizada no Portal do Exame.
+2. Certifique-se de que a transmissão da câmera está ativa e que o compartilhamento de tela foi iniciado.
+3. Caso utilize **mais de um monitor**, **todos os monitores deverão ser compartilhados** no sistema de Proctoring durante todo o exame.
+4. Apresente à câmera um documento oficial de identificação com foto, como **RG, CNH, Passaporte ou Registro de Conselho/Classe**.
+
+> **Não são aceitos** crachás corporativos, carteiras de estudante ou qualquer outro documento não oficial.
+
+**Nota:** O documento de identificação apresentado e toda a gravação do exame serão utilizados exclusivamente para validação da identidade do candidato e para fins de auditoria interna do processo de certificação. Esses dados serão armazenados apenas pelo período necessário para a avaliação do exame e posteriormente eliminados de acordo com nossa política de retenção de dados.
+
+> **Atenção:** É **obrigatório** manter o sistema de **Proctoring aberto, autenticado, conectado e transmitindo continuamente a câmera e o compartilhamento de todas as telas utilizadas durante o exame**. Caso o candidato utilize dois ou mais monitores, **todos deverão permanecer compartilhados durante toda a prova**. A verificação de que o sistema permanece em funcionamento e transmitindo corretamente é **de inteira responsabilidade do candidato**. O fechamento do sistema de Proctoring, a interrupção da transmissão da câmera ou do compartilhamento de qualquer monitor, a perda de conexão ou qualquer falha que impeça o monitoramento contínuo poderá resultar na interrupção ou invalidação do exame, conforme as regras da certificação.
+> {: .prompt-warning }
 
 ### Sessão 3: Instruções de envio
 
