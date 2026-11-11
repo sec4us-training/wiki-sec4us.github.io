@@ -43,7 +43,7 @@ O procedimento de envio do relatório ou laudo pericial será explicado mais a f
 ### Sessão 1: Processo de compra e agendamento do exame
 
 1.  Compra do voucher do exame:
-    1.  A compra do voucher de certificação será por meio da URL [https://sec4us.lojaintegrada.com.br/certificacao-17356603](https://sec4us.lojaintegrada.com.br/certificacao-17356603). Após a compra você receberá no seu e-mail, um link para o portal onde poderá dar início ao seu exame.
+    1.  A compra do voucher de certificação será por meio da URL [https://sec4us.com.br/certifications/scfe](https://sec4us.com.br/certifications/scfe). Após a compra você receberá no seu e-mail, um link para o portal onde poderá dar início ao seu exame.
 2.  Realização do exame
     1.  Após a aquisição do voucher você poderá iniciar o exame a qualquer momento;
     2.  O voucher regular tem validade de 180 dias a partir do momento de sua compra.
